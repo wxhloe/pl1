@@ -1,3 +1,5 @@
+//Template inspiration: https://developers.google.com/maps/documentation/javascript/examples/marker-simple#maps_marker_simple-typescript, https://developers.google.com/maps/documentation/javascript/examples/marker-symbol-custom#maps_marker_symbol_custom-javascript, add markers and marker shaped symble.
+// js sample: add labels
 function initMap() {
   const myLatLng = { lat: 45.255, lng: -81.670 };
   const map = new google.maps.Map(document.getElementById("map"), {
